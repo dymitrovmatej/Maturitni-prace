@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+#menu li a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+   background-color: #393939;
+}
+
+h1{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+
+
+div.Home {
+ position: absolute;
+ transform: translate(-50%, -50%);
+ top: 25%;
+ left: 50%;
+  border-radius: 80px;
+  background: whitesmoke;
+  padding: 20px;
+  width: 500px;
+  height: 130px;
+  text-align: center;
+}
+
+div.zacatek {
+    text-align: center;
+    line-height: 50px;
+}
+

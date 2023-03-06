@@ -1,0 +1,82 @@
+body,
+html {
+  background-color: #666666;
+  font-family: "Segoe UI", Arial, san-serif;
+}
+
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.squareRow {
+  display: flex;
+}
+
+.square {
+  border: 1px solid rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+  background-color: #abe85c;
+  cursor: pointer;
+}
+
+.inforContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameCounterContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.counterRow {
+  display: flex;
+  font-size: 30px;
+}
+
+#gameStatus {
+  text-align: center;
+  font-size: 36px;
+}
+
+/* vzhled tlačítka */
+button {
+  background-color: #a7e76b;
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 3px;
+}
+
+
+@media (max-width: 768px) {
+  .square {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+a {
+  border: none;
+  color: #000000;
+  text-align: absolute;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 3px;
+}

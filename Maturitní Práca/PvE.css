@@ -1,0 +1,90 @@
+/* hrací pole */
+td {
+  border:  2px solid #000000;
+  height:  100px;
+  width:  100px;
+  text-align:  center;
+  vertical-align:  middle;
+  cursor: pointer;
+}
+
+body {
+background-color: #666666;
+font-family: "Segoe UI", Arial, san-serif;
+}
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  top: 50px;
+  display: flex;
+}
+
+.square {
+  border: 1px solid rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+  background-color: #abe85c;
+  cursor: pointer;
+}
+
+
+
+button {
+  background-color: #a7e76b;
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 350px;
+  margin-left: 850px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 1px;
+}
+
+.endgame {
+
+width: 200px;
+top: 450px;
+position: absolute;
+left: 50%;
+margin-left: -100px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+border-radius: 5px;
+color: rgb(0, 0, 0);
+font-size: 40px;
+
+}
+Menu li{
+  list-style: none;
+  display: inline-block;
+  margin: 30px;
+}
+
+Menu li a{
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a {
+  border: 3px;
+  color: #000000;
+  text-align: absolute;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 3px;
+}
